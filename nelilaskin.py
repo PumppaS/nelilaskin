@@ -25,9 +25,11 @@ while True:
 		erotus = eka - toka
 		print("Erotus on ", erotus)
 	elif valinta == 3:
-		#tulo
+		tulo = eka * toka#lisatty
+		print("Tulo on ", tulo)
 	elif valinta == 4:
-		#osamäärä
+		osamaara = eka / toka#lisatty
+		print("Osamäärä ", osamaara)
 	elif valinta == 0:
 		print("Kiitos ohjelman käytöstä.")
 		break
